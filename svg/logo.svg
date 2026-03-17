@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="80" viewBox="0 0 260 80" role="img" aria-label="Adriatic Eco Tours logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0066cc"/>
+      <stop offset="100%" stop-color="#00a3a3"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="260" height="80" rx="18" fill="white"/>
+  <path d="M18 50 C 45 30, 70 30, 95 50 S 145 70, 170 50 S 220 30, 242 50" fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="210" cy="24" r="10" fill="#ffcc00" stroke="#d9a600" stroke-width="2"/>
+  <path d="M35 58 L60 58 L55 68 L40 68 Z" fill="#222"/>
+  <rect x="47" y="40" width="4" height="18" fill="#222"/>
+  <path d="M51 42 L51 58 L68 58 Z" fill="#f8f8f8" stroke="#222" stroke-width="1"/>
+  <text x="92" y="58" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#111">Eco Tours</text>
+  <text x="92" y="32" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" fill="#0066cc">Adriatic</text>
+</svg>

@@ -1,0 +1,31 @@
+
+:root{
+  --brand:#0066cc;
+  --brand2:#00a3a3;
+  --ink:#111;
+}
+.bg-brand{ background: linear-gradient(90deg, var(--brand), var(--brand2)); }
+.hero{
+  background: url('../img/hero.jpg') center/cover no-repeat;
+  min-height: 52vh;
+  position: relative;
+  color: white;
+}
+.hero::before{
+  content:"";
+  position:absolute; inset:0;
+  background: rgba(0,0,0,.45);
+}
+.hero > .container{ position: relative; z-index: 1; }
+.card img{ object-fit: cover; height: 190px; }
+.badge-soft{
+  background: rgba(0,102,204,.12);
+  color: var(--brand);
+  border: 1px solid rgba(0,102,204,.25);
+}
+.media-frame{
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  border: 1px solid rgba(0,0,0,.08);
+}
